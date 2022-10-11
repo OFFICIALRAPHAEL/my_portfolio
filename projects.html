@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+1+Code:wght@500&display=swap" rel="stylesheet">
+    <title>project Me</title>
+</head>
+<body>
+  
+    <!--Nav section starts here-->
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <img src="images/menu.png" alt="reload" id="menu" />
+    </div>
+
+
+
+    <!--Nav section ends here-->
+
+  
+    <section id="project">
+        <div class="title-text">
+          <p>CyberTech</p>
+          <br />
+          <h1>ProjectsZone</h1>
+        </div>
+        <div class="project-box">
+          <div class="projects">
+            <h1>
+              <a href="#"> TechWRLD</a>
+            </h1>
+            <div class="projects-desc">
+              <div class="projects-icon"></div>
+              <div class="projects-text">
+                <p>
+                  <code
+                    ></code
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="projects-img">
+            <img src="images/image3.jpg" alt="reload" />
+          </div>
+          <div class="projects">
+            <h1>
+              <a href="#"> NEED FOR SPEED HEAT</a>
+            </h1>
+            <div class="projects-desc">
+              <div class="projects-icon"></div>
+              <div class="projects-text">
+                <p>
+                  <code
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    accusantium excepturi, perspiciatis molestias saepe vel sequi
+                    tenetur nemo alias rem consequatur dolorum veniam fugit labore
+                    sit odit harum repudiandae necessitatibus?</code
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="projects-img">
+            <img src="images/image4.jpg" alt="reload" />
+          </div>
+          <div class="projects">
+            <h1>
+              <a href="#">RYUKO RISEN DRAGON</a>
+            </h1>
+            <div class="projects-desc">
+              <div class="projects-icon"></div>
+              <div class="projects-text">
+                <p>
+                  <code
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    accusantium excepturi, perspiciatis molestias saepe vel sequi
+                    tenetur nemo alias rem consequatur dolorum veniam fugit labore
+                    sit odit harum repudiandae necessitatibus?</code
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="projects-img">
+            <img src="images/image5.jpeg" alt="reload" />
+          </div>
+          
+        </div>
+      </div>
+      <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-150px";
+  
+        menuBtn.onclick = function () {
+          if (sideNav.style.right == "-150px") {
+            sideNav.style.right = "0";
+            menu.src = "images/close.png";
+          } else {
+            sideNav.style.right = "-150px";
+            menu.src = "images/menu.png";
+          }
+        };
+      </script>
+  
+      </body>
+      </section>
+      <!--project section ends-->
+      
+</html>
